@@ -8,7 +8,7 @@ module.exports.EXTENSION_PIPE_TABLE = process.env.EXTENSION_PIPE_TABLE || module
 module.exports.EXTENSION_MINUS_METADATA = process.env.EXTENSION_MINUS_METADATA || module.exports.EXTENSION_DEFAULT || process.env.ALL_EXTENSIONS;
 module.exports.EXTENSION_PLUS_METADATA = process.env.EXTENSION_PLUS_METADATA || module.exports.EXTENSION_DEFAULT || process.env.ALL_EXTENSIONS;
 module.exports.EXTENSION_TAGS = process.env.EXTENSION_TAGS || process.env.ALL_EXTENSIONS;
-module.exports.EXTENSION_LATEX = process.env.EXTENSION_LATEX || module.exports.EXTENSION_DEFAULT || process.env.ALL_EXTENSIONS;
+module.exports.EXTENSION_LATEX =true;// process.env.EXTENSION_LATEX || module.exports.EXTENSION_DEFAULT || process.env.ALL_EXTENSIONS;
 module.exports.EXTENSION_WIKI_LINK = process.env.EXTENSION_WIKI_LINK || process.env.ALL_EXTENSIONS;
 
 const PUNCTUATION_CHARACTERS_REGEX = '!-/:-@\\[-`\\{-~';
